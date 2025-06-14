@@ -24,9 +24,9 @@ client = OpenAI(
 app = FastAPI()
 
 # Load content from both sources
-with open(r"C:\Users\DELLdiscourse_pages.json", "r", encoding="utf-8") as f:
+with open("discourse_pages.json", "r", encoding="utf-8") as f:
     course_docs = json.load(f)
-with open(r"C:\Users\DELLcourse_pages.json", "r", encoding="utf-8") as f:
+with open("course_pages.json", "r", encoding="utf-8") as f:
     discourse_docs = json.load(f)
 
 all_docs = course_docs + discourse_docs
