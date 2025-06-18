@@ -9,3 +9,5 @@ numpy==1.26.4
 Pillow==10.3.0
 aiofiles
 pytesseract==0.3.10
+scikit-learn
+
